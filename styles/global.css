@@ -1,0 +1,30 @@
+img, svg, video, canvas, audio, iframe, embed, object{
+  display: inline;
+}
+li, span{
+  cursor: pointer!important;
+}
+
+.hamber{
+  position:absolute;
+  top:10px;
+  left:10px
+} 
+@media only screen and (max-width: 600px) {
+  .logo{
+    padding-left: 30px!important;
+  }
+  .avartar{
+    position: absolute;
+    top:10px;
+    right:10px;
+  }
+  .hover\:bg-green-600:hover {
+    background-color: transparent;
+    border:none!important;
+  }
+  .hover\:bg-green-600:active {
+    /* background-color: transparent; */
+    border:none!important;
+  }
+}
